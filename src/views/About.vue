@@ -7,7 +7,7 @@
         <p>RX100 created by Mani5GRockers</p>
 		 <p>explore & share and play media of files online</p>
         <p>
-          RX100 Torrent open sources
+          RX100 open sources
         </p>
 		<p>
          Visit the github repository from
