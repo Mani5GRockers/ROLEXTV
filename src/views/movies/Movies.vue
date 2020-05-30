@@ -246,7 +246,7 @@ export default {
       query: "",
       rating: 0,
       order: "desc",
-      sort: "year_added",
+      sort: "date_added",
       genre: "all",
       loading: true,
       thinking: false,
