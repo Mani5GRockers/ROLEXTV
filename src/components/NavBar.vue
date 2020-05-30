@@ -4,7 +4,7 @@
       <v-toolbar-side-icon @click="drawer = !drawer"></v-toolbar-side-icon>
       <v-spacer></v-spacer>
       <v-toolbar-title @click="$router.push('/')">
-        <img src="/img/logo.png" style="max-height: 5em" alt="live torrent logo" />
+        <img src="/img/logo.png" style="max-height: 5em" alt="RX100 Logo" />
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn icon @click="$router.go(-1)">
