@@ -20,7 +20,7 @@
             icon
             tag="a"
             target="_blank"
-            :href="`/api/torrent/serve/${torrentInfo.infoHash}/${file.path.substr(1) || file.index}`"
+            :href="`/api/stream/aws/${torrentInfo.infoHash}/${file.path.substr(1) || file.index}`"
             :download="file.name"
           >
             <v-icon color="green darken-2">fas fa-download</v-icon>
@@ -72,7 +72,7 @@
           <video
             id="player"
             ref="player"
-            :src="`/api/torrent/serve/${torrentInfo.infoHash}/${file.path.substr(1) || file.index}`"
+            :src="`/api/stream/aws/${torrentInfo.infoHash}/${file.path.substr(1) || file.index}`"
             controls
           >
             <track
