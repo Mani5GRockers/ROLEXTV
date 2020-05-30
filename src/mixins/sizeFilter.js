@@ -1,7 +1,7 @@
 export default {
   filters: {
     size(n) {
-      const types = ["bytes", "Kb", "Mb", "Gb", "Tb"];
+      const types = ["bytes", "Kb", "Mb", "Gb", "Tb", "Pb", "Eb", "Zb", "Yb"];
       let size = n;
       let i = 0;
       while (size >= 1024) {
