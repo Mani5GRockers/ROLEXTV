@@ -4,7 +4,7 @@ const axios = require("axios").default;
 router.get("/list", (req, res) => {
   const { query: q } = req;
   axios
-    .get("https://yts.lt/api/v2/list_movies.json", {
+    .get("https://yts.mx/api/v2/list_movies.json", {
       params: {
         query_term: q.query || q.q || 0,
         page: q.page || q.p || 1,
@@ -22,7 +22,7 @@ router.get("/list", (req, res) => {
 
 router.get("/movie/:id", (req, res) =>
   axios
-    .get("https://yts.lt/api/v2/movie_details.json", {
+    .get("https://yts.mx/api/v2/movie_details.json", {
       params: {
         with_images: true,
         with_cast: true,
@@ -35,7 +35,7 @@ router.get("/movie/:id", (req, res) =>
 
 router.get("/movie/:id/suggestions", (req, res) =>
   axios
-    .get("https://yts.lt/api/v2/movie_suggestions.json", {
+    .get("https://yts.mx/api/v2/movie_suggestions.json", {
       params: {
         movie_id: req.params.id
       }
