@@ -5,7 +5,7 @@
         <h1 class="title my-5">About RX100</h1>
 
         <p>RX100 created by Mani5GRockers</p>
-		 <p>explore & share and play media of files online</p>
+		 <p>explore share and play media of files online</p>
         <p>
           RX100 open sources
         </p>
