@@ -10,7 +10,7 @@
           RX100 Torrent open sources
         </p>
 		<p>
-          <br />Visit the github repository from
+         Visit the github repository from
          github
         </p>
         
