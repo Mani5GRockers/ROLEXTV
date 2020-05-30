@@ -4,13 +4,16 @@
       <v-flex xs12 md10>
         <h1 class="title my-5">About RX100</h1>
 
-        <p>RX100 created to explore & share and play media of files online.</p>
+        <p>RX100 created by Mani5GRockers</p>
+		 <p>explore & share and play media of files online</p>
         <p>
-          RX100 Torrent is open source.
+          RX100 Torrent is open source
+        </p>
+		<p>
           <br />Visit the github repository from
          github
         </p>
-        <p></p>
+        
         <p>Telegram user: @Mani5GRockers</p>
         <p>
           Backend is based on
@@ -32,7 +35,7 @@
           Subtitles from
         opensubtitles.org
         </p>
- <h2 class="title my-5">... Thanks For Visit ...</h2>
+ <h2 class="title my-5">$$$ Thanks For Visiting $$$</h2>
       </v-flex>
     </v-layout>
   </v-container>
