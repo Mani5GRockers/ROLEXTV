@@ -2,7 +2,7 @@
   <v-container fluid>
     <v-layout raw wrap xs12>
       <v-flex xs12 class="my-5 text-xs-center">
-        <h1>Torrent Movies</h1>
+        <h1>RX100 Movies</h1>
       </v-flex>
 
       <v-flex xs12>
@@ -69,13 +69,13 @@
               single-line
               :items="[
                 { text: 'Title', value: 'title' },
-                { text: 'Year', value: 'year' },
+				{ text: 'Upload Date', value: 'date_added' },
                 { text: 'Rating', value: 'rating' },
                 { text: 'Peers', value: 'peers' },
                 { text: 'Seeds', value: 'seeds' },
                 { text: 'Downloads', value: 'download_count' },
                 { text: 'Popularity', value: 'likes_count' },
-                { text: 'Upload Date', value: 'date_added' }
+                { text: 'Year', value: 'year' }
               ]"
             >
               <template v-slot:prepend-inner>
