@@ -266,7 +266,7 @@ export default {
       const { fileIndex, $router, torrentInfo } = this;
       const ready = () => {
         this.$nextTick(() => this.setPlayer());
-        document.title = "Live Torrent - video player - " + this.file.name;
+        document.title = "RX100 - video player - " + this.file.name;
       };
 
       if (!fileIndex) {
