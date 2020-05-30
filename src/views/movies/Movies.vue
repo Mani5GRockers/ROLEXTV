@@ -68,14 +68,14 @@
               }"
               single-line
               :items="[
+	        { text: 'Upload Date', value: 'date_added' },
+		{ text: 'Year', value: 'year' }
                 { text: 'Title', value: 'title' },
-				{ text: 'Upload Date', value: 'date_added' },
                 { text: 'Rating', value: 'rating' },
                 { text: 'Peers', value: 'peers' },
                 { text: 'Seeds', value: 'seeds' },
                 { text: 'Downloads', value: 'download_count' },
                 { text: 'Popularity', value: 'likes_count' },
-                { text: 'Year', value: 'year' }
               ]"
             >
               <template v-slot:prepend-inner>
