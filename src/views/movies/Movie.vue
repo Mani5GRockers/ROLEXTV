@@ -247,13 +247,13 @@
 
                 <v-text-field
                   label="Stream"
-                  :value="`${hostURL}/api/stream/aws/${torrent.hash}/:video`"
+                  :value="`${hostURL}/api/torrent/serve/${torrent.hash}/:video`"
                   readonly
                 >
                   <template v-slot:append>
                     <v-btn
                       icon
-                      @click="$copy(`${hostURL}/api/stream/aws/${torrent.hash}/:video`)"
+                      @click="$copy(`${hostURL}/api/torrent/serve/${torrent.hash}/:video`)"
                     >
                       <v-icon small>fas fa-copy</v-icon>
                     </v-btn>
@@ -276,7 +276,7 @@
                   tag="a"
                   target="_blank"
                   :download="`${movie.slug}.mp4`"
-                  :href="`${hostURL}/api/stream/aws/${torrent.hash}/:video`"
+                  :href="`${hostURL}/api/torrent/serve/${torrent.hash}/:video`"
                 >Download Movie (.mp4)</v-btn>
               </v-card-text>
             </v-card>
@@ -345,7 +345,7 @@ export default {
   },
   watch: {
     movie(n) {
-      document.title = "RX100 - Movie - " + n.title_long;
+      document.title = "Live Torrent - Movie - " + n.title_long;
     }
   },
   created() {
