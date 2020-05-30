@@ -1,7 +1,7 @@
 FROM node:12
 
-LABEL maintainer "Mani5GRockers <@Mani5GRockers>"
-LABEL description "RX100"
+LABEL maintainer "Davenchy <firon1222@gmail.com>"
+LABEL description "Build Live-Torrent server image"
 LABEL version "3.0"
 
 WORKDIR /usr/src/app

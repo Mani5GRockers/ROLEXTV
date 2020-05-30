@@ -3,9 +3,7 @@
     <v-layout justify-center :align-center="$vuetify.breakpoint.mdAndUp" fill-height>
       <v-flex xs12 md10>
         <h1 class="title my-5">About RX100</h1>
-
-        <p>RX100 created by Mani5GRockers</p>
-		 <p>explore share and play media of files online</p>
+		 <p>explore & share and play media of files online</p>
         <p>
           RX100 open sources
         </p>
@@ -24,7 +22,7 @@
           Plyr.js
         </p>
         <p>
-          RX100 Torrent is a
+          RX100 is a
           vue.js project
         </p>
         <p>
@@ -35,6 +33,7 @@
           Subtitles from
         opensubtitles.org
         </p>
+		 <p>RX100 created by Mani5GRockers</p>
  <h2 class="title my-5">$$$ Thanks For Visiting $$$</h2>
       </v-flex>
     </v-layout>

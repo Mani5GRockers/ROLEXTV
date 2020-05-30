@@ -68,8 +68,8 @@
               }"
               single-line
               :items="[
-	        { text: 'Upload Date', value: 'date_added' },
                 { text: 'Title', value: 'title' },
+				{ text: 'Upload Date', value: 'date_added' },
                 { text: 'Rating', value: 'rating' },
                 { text: 'Peers', value: 'peers' },
                 { text: 'Seeds', value: 'seeds' },

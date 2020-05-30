@@ -77,7 +77,7 @@
           <div class="mb-3">Share RX100:</div>
           <share-buttons
             :url="hostURL"
-            title="Explore download or watch files online"
+            title="Explore & download or watch files online"
             desc="RX100 is a web app to explore, download or watch files online"
           />
         </v-flex>
