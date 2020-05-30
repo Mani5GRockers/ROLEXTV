@@ -21,9 +21,6 @@
       <network network="telegram" class="blue--text text--lighten-2 ma-3">
         <i class="fab fa-telegram"></i> Telegram
       </network>
-	   <network network="email" class="orange--text ma-3">
-        <i class="fas fa-envelope"></i> Email
-      </network>
       <network network="skype" class="blue--text ma-3">
         <i class="fab fa-skype"></i> Skype
       </network>
