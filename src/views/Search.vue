@@ -104,7 +104,7 @@ export default {
   data() {
     return {
       query: "",
-      limit: 10,
+      limit: 30,
       category: "All",
       provider: null,
       loading: false,
