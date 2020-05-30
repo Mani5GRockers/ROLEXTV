@@ -345,7 +345,7 @@ export default {
   },
   watch: {
     movie(n) {
-      document.title = "Live Torrent - Movie - " + n.title_long;
+      document.title = "RX100 | " + n.title_long;
     }
   },
   created() {
