@@ -1,7 +1,7 @@
 {
-  "name": "Live Torrent",
-  "description": "Search, explore, serve and download torrent files and watch online YTS torrent movies with subtitles",
-  "repository": "https://github.com/Davenchy/live-torrent",
+  "name": "RX100",
+  "description": "Search, explore, serve and download files and watch online movies with subtitles",
+  "repository": "https://github.com/Mani5GRockers/RX100",
   "logo": "https://github.com/Davenchy/live-torrent/raw/master/public/img/logo.png",
   "keywords": [
     "frontend",
@@ -25,6 +25,6 @@
       "value": "TemporaryUserAgent"
     }
   },
-  "image": "davenchy/live-torrent",
+  "image": "Mani5GRockers/RX100",
   "success_url": "/"
 }

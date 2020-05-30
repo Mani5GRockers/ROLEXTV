@@ -12,15 +12,15 @@
           >
             <span style="color: #d21414">
               <i class="fas fa-circle logo"></i>
-              Live
+              RX100
             </span>
-            Torrent
+            Mani5GRockers
           </h1>
         </v-flex>
         <v-flex xs10 offset-xs1>
           <v-text-field
             v-model="query"
-            label="Looking for something or you have a torrentID"
+            label="RX100 Looking for something or you have a torrentID"
             @keydown.enter="search"
             :error-messages="errors"
             :disabled="loading"
@@ -52,21 +52,21 @@
         <v-flex class="text-xs-center mt-5">
           <v-btn
             color="gray"
-            href="https://github.com/Davenchy/live-torrent"
+            href="/"
             target="blank"
           >
             <v-icon left>fab fa-github</v-icon>Github
           </v-btn>
           <v-btn
             color="gray"
-            href="https://github.com/Davenchy/live-torrent/issues"
+            href="/"
             target="blank"
           >
             <v-icon left>fas fa-exclamation-circle</v-icon>Github Issues
           </v-btn>
           <v-btn
             color="blue"
-            href="mailto:firon1222@gmail.com?Subject=Live%20Torrent%20-%20Feedback"
+            href="/"
             target="blank"
           >
             <v-icon left>fas fa-comments</v-icon>Feedback
@@ -74,22 +74,22 @@
         </v-flex>
 
         <v-flex xs10 offset-xs1 class="mt-5">
-          <div class="mb-3">Share Live Torrent:</div>
+          <div class="mb-3">Share RX100:</div>
           <share-buttons
             :url="hostURL"
-            title="Explore, download or watch torrent files online"
-            desc="Live Torrent is a web app to explore, download or watch torrent files online"
+            title="Explore & download or watch files online"
+            desc="RX100 is a web app to explore, download or watch files online"
           />
         </v-flex>
         <v-flex xs12 class="text-xs-center mt-5">
           <a
-            href="https://brave.com/liv970"
+            href="/"
             target="_blank"
-            title="Support us and a faster and safer web by downloading Brave browser"
+            title="Support us and a faster and safer web by downloading RX100"
           >
             <img
-              src="/img/brave.png"
-              alt="Proud to support a faster, safer web"
+              src="/img/coming-soon.png"
+              alt="Proud to support a faster, safer web for Mani5GRockers"
             />
           </a>
         </v-flex>
@@ -190,7 +190,7 @@ export default {
     }
   },
   created() {
-    document.title = "Live Torrent";
+    document.title = "RX100";
     const { query } = this.$route.query;
     if (query) {
       this.query = query;

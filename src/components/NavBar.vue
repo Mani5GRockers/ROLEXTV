@@ -34,7 +34,7 @@
             </v-list-tile-avatar>
 
             <v-list-tile-content>
-              <v-list-tile-title>Live Torrent</v-list-tile-title>
+              <v-list-tile-title>RX100</v-list-tile-title>
             </v-list-tile-content>
 
             <v-list-tile-action>
