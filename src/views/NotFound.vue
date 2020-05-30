@@ -12,7 +12,7 @@
 export default {
   name: "notfound",
   created() {
-    document.title = "Live Torrent - Error 404";
+    document.title = "RX100 - Error 404";
     this.Swal.fire({
       title: "Error 404",
       text: "Page Not Found!",
