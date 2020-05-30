@@ -3,7 +3,7 @@
     <v-layout row wrap>
       <v-flex xs12>
         <v-text-field
-          placeholder="Looking for..."
+          placeholder="RX100 Looking for..."
           solo
           light
           :loading="loading"
