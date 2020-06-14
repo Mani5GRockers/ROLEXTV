@@ -6,13 +6,13 @@ Watch online YTS movies with subtitles.
 
 the backend package is [live-torrent-backend](https://github.com/Mani5GRockers/live-torrent-backend)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Mani5GRockers/RX100)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Mani5GRockers/Fake-Files)
 
 ## Install and Build
 
 ```
 # clone the project
-git clone https://github.com/Mani5GRockers/RX100 && cd live-torrent
+git clone https://github.com/Mani5GRockers/Fake-Files && cd live-torrent
 
 # then install dependencies
 npm install
@@ -50,7 +50,7 @@ for more information about the OpenSubtitles.org api user agent from [here](http
 
 ## Docker
 
-- Docker repo: `Mani5GRockers/RX100`
+- Docker repo: `Mani5GRockers/Fake-Files`
 
 `docker run --name live-torrent -d -p <PORT>:8080 -e "OSUA=<your opensubtitles user agent>" live-torrent`
 

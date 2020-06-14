@@ -63,7 +63,7 @@ export default {
   },
   created() {
     this.$Bookmarks = Bookmarks;
-    document.title = "Live Torrent - Bookmarks";
+    document.title = "RX100 - Bookmarks";
     const { bookmark, bookmarks } = this.$route.query;
 
     let bm = [],

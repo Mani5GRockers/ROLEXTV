@@ -11,8 +11,6 @@
          Visit the github repository from
          github
         </p>
-        
-        <p>Telegram user: @Mani5GRockers</p>
         <p>
           Backend is based on
           webtorrent project

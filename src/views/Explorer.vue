@@ -298,7 +298,7 @@ export default {
     const id = this.$route.query.torrentId;
 
     const setTitle = () =>
-      (document.title = "Live Torrent - Explorer - " + this.torrentInfo.name);
+      (document.title = "RX100 - Explorer - " + this.torrentInfo.name);
 
     const invalidTorrentId = () => {
       this.Swal.fire({

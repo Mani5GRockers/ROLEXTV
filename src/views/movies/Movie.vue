@@ -345,7 +345,7 @@ export default {
   },
   watch: {
     movie(n) {
-      document.title = "Mani5GRockers - " + n.title_long;
+      document.title = "RX100 - Movie - " + n.title_long;
     }
   },
   created() {

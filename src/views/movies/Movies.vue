@@ -68,14 +68,14 @@
               }"
               single-line
               :items="[
-	        { text: 'Upload Date', value: 'date_added' },
-		{ text: 'Year', value: 'year' }
+			    { text: 'Year', value: 'year' },
                 { text: 'Title', value: 'title' },
+				{ text: 'Upload Date', value: 'date_added' },
                 { text: 'Rating', value: 'rating' },
                 { text: 'Peers', value: 'peers' },
                 { text: 'Seeds', value: 'seeds' },
                 { text: 'Downloads', value: 'download_count' },
-                { text: 'Popularity', value: 'likes_count' },
+                { text: 'Popularity', value: 'likes_count' }
               ]"
             >
               <template v-slot:prepend-inner>
@@ -248,7 +248,7 @@ export default {
       order: "desc",
       sort: "date_added",
       genre: "all",
-      loading: true,
+      loading: false,
       thinking: false,
       cpage: 1,
       generatedPages: [],
@@ -381,7 +381,7 @@ export default {
   },
   created() {
     const { readStorage } = this;
-    document.title = "Live Torrent - Movies";
+    document.title = "RX100 - Movies";
     const { query, genre, rating } = this.$route.query;
     this.query = query || readStorage("mse.query") || "";
     this.rating =
