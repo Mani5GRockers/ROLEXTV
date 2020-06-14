@@ -95,10 +95,7 @@ export default {
       drawer: true,
       mini: false,
       items: [
-        { title: "Home", icon: "fas fa-home", path: "/" },
-        { title: "Movies", icon: "fas fa-film", path: "/movies" },
-        { title: "Bookmarks", icon: "fas fa-bookmark", path: "/bookmarks" },
-        { title: "About", icon: "info", path: "/about" }
+       
       ]
     };
   },
