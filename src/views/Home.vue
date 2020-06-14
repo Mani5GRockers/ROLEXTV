@@ -1,30 +1,10 @@
 <template>
   <v-layout align-center justify-center fill-height>
-    <v-flex xs12>
-      <v-layout row wrap>
-        <v-flex xs12 mb-5>
-          <h1
-            class="text-xs-center text-uppercase font-weight-black"
-            :class="[
-              { 'display-2': $vuetify.breakpoint.mdAndUp },
-              { 'display-1': $vuetify.breakpoint.smOnly }
-            ]"
-          >
-            <span style="color: #d21414">
+   <span style="color: #d21414">
               <i class="fas fa-circle logo"></i>
               Access denied
             </span>
-            Mani5GRockers
-          </h1>
-        </v-flex>
-       
-            </template>
-          </v-text-field>
-        </v-flex>
-      </v-layout>
-    </v-flex>
-  </v-layout>
-</template>
+   </template>
 
 
 <style scoped>
