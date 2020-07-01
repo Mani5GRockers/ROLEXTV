@@ -7,7 +7,7 @@
           <bookmark-button
             v-if="file"
             :bookmarkInfo="{
-            name: `${file.name} - Video Player`,
+            name: `${file.name} - Mani5GRockers`,
             id: 'player::' + torrentInfo.infoHash + '::' + file.path,
             url: shareURL
           }"
@@ -266,7 +266,7 @@ export default {
       const { fileIndex, $router, torrentInfo } = this;
       const ready = () => {
         this.$nextTick(() => this.setPlayer());
-        document.title = "RX00 - video player - " + this.file.name;
+        document.title = "Mani5GRockers - " + this.file.name;
       };
 
       if (!fileIndex) {
